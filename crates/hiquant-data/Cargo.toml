@@ -1,0 +1,19 @@
+[package]
+name = "hiquant-data"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+
+[dependencies]
+hiquant-core.workspace = true
+hiquant-protocol.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+chrono.workspace = true
+thiserror.workspace = true
+tracing.workspace = true
+csv.workspace = true
+rand.workspace = true
+async-trait.workspace = true
+reqwest.workspace = true

@@ -1,0 +1,29 @@
+[package]
+name = "hiquant-cli"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+
+[[bin]]
+name = "hiquant"
+path = "src/main.rs"
+
+[dependencies]
+hiquant-core.workspace = true
+hiquant-data.workspace = true
+hiquant-storage.workspace = true
+hiquant-account.workspace = true
+hiquant-market.workspace = true
+hiquant-engine.workspace = true
+hiquant-broker.workspace = true
+hiquant-server.workspace = true
+hiquant-protocol.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+chrono.workspace = true
+anyhow.workspace = true
+tracing.workspace = true
+tracing-subscriber.workspace = true
+tokio.workspace = true
+clap.workspace = true
